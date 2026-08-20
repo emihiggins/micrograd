@@ -1,0 +1,19 @@
+[project]
+name = "micrograd"
+version = "0.1.0"
+description = "Building micrograd from scratch"
+authors = [
+    { name = "Emi Higgins", email = "emaliahiggins5@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "graphviz>=0.21",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.3",
+]
